@@ -1,9 +1,12 @@
 <?php
+// opcache_reset();
+
 require_once "lib/db.php";
 require_once "lib/errorHandling.php";
 require_once "lib/var_dump_plus.php";
 require_once "lib/sql.php";
 require_once "lib/logging.php";
+require_once "lib/normalizeString.php";
 
 header("Content-Type: application/json; charset=utf-8");
 
@@ -22,13 +25,21 @@ $dailyGoal = $jsonData[getDailyGoal()];
 // var_dump_plus($dailyGoal);
 
 if (!isset($_GET["stanice"])) {
-    echo "Zastavka neni definovana"
+    echo "Zastavka neni definovana";
 }
 
-if (isset($jsonData[$_GET["stanice"]])) {
+foreach ($jsonData as $key => $value) {
+    // var_dump_plus(normalizeString($key));
+    if (normalizeString($key) === $_GET["stanice"]) {
+        $foundKey = $key;
+        break;
+    }
+}
+
+if (isset($foundKey)) {
     echo json_encode([
         getDailyGoal() => $dailyGoal,
-        $_GET["stanice"] => $jsonData[$_GET["stanice"]]
+        $foundKey => $jsonData[$foundKey]
     ]);
 } else {
     echo "Zastavka neexistuje";

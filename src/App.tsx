@@ -23,10 +23,16 @@ function App() {
     }
   }
 
+  function removeDiacritics(str : string) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  }
+
   const handleClick = async () => {
+    const normalizedStanice = removeDiacritics(currentStanice.toLowerCase());
+
     try {
       console.log("Kliklo se to")
-      const query = new URLSearchParams({ stanice: currentStanice }).toString();
+      const query = new URLSearchParams({ stanice: normalizedStanice }).toString();
       const res = await fetch(
         defaultUrl + "getData.php" + "?" + query,
         {
@@ -41,8 +47,8 @@ function App() {
       
       console.log(data)
 
-      if (Object.keys(data).length == 1 && data.error !== undefined) {
-        alert(data.error)
+      if (typeof data == "string") {
+        alert(data)
         return
       }
 
