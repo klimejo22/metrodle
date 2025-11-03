@@ -1,0 +1,29 @@
+.box {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+  /* text zalamovat a víc řádků */
+  text-align: center;        /* centrování textu */
+  word-break: break-word;    /* zalomení dlouhých slov */
+  white-space: normal;       /* umožní více řádků */
+  padding: 4px;              /* odsazení uvnitř kostky */
+  line-height: 1.2;          /* lepší čitelnost při více řádcích */
+}
+
+
+.box.zeleny  { background-color: #22c55e; }
+.box.cerveny { background-color: #ef4444; }
+.box.zluty   { background-color: #facc15; }
+.box.nazev   { background-color: #6b7280; }
+
+.cube-container {
+  display: flex;
+  gap: 8px;
+}

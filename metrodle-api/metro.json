@@ -1,0 +1,411 @@
+{
+    "Dejvická": {
+        "LINKA": "A",
+        "CAST": "Praha 6",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1978"
+    },
+    "Hradčanská": {
+        "LINKA": "A",
+        "CAST": "Praha 6",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": true,
+        "ROK": "1978"
+    },
+    "Malostranská": {
+        "LINKA": "A",
+        "CAST": "Praha 1",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1978"
+    },
+    "Staroměstská": {
+        "LINKA": "A",
+        "CAST": "Praha 1",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1978"
+    },
+    "Náměstí Míru": {
+        "LINKA": "A",
+        "CAST": "Praha 2",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1978"
+    },
+    "Jiřího z Poděbrad": {
+        "LINKA": "A",
+        "CAST": "Praha 3",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1980"
+    },
+    "Flora": {
+        "LINKA": "A",
+        "CAST": "Praha 3",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1980"
+    },
+    "Želivského": {
+        "LINKA": "A",
+        "CAST": "Praha 3",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1980"
+    },
+    "Strašnická": {
+        "LINKA": "A",
+        "CAST": "Praha 10",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1987"
+    },
+    "Skalka": {
+        "LINKA": "A",
+        "CAST": "Praha 10",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1990"
+    },
+    "Depo Hostivař": {
+        "LINKA": "A",
+        "CAST": "Praha 10",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2006"
+    },
+    "Bořislavka": {
+        "LINKA": "A",
+        "CAST": "Praha 6",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2015"
+    },
+    "Nádraží Veleslavín": {
+        "LINKA": "A",
+        "CAST": "Praha 6",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": true,
+        "ROK": "2015"
+    },
+    "Petřiny": {
+        "LINKA": "A",
+        "CAST": "Praha 6",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2015"
+    },
+    "Nemocnice Motol": {
+        "LINKA": "A",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2015"
+    },
+
+    "Zličín": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1994"
+    },
+    "Stodůlky": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1994"
+    },
+    "Luka": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1994"
+    },
+    "Lužiny": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1994"
+    },
+    "Hůrka": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1994"
+    },
+    "Nové Butovice": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1988"
+    },
+    "Jinonice": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1988"
+    },
+    "Radlická": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1988"
+    },
+    "Smíchovské nádraží": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": true,
+        "ROK": "1985"
+    },
+    "Anděl": {
+        "LINKA": "B",
+        "CAST": "Praha 5",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": true,
+        "ROK": "1985"
+    },
+    "Karlovo náměstí": {
+        "LINKA": "B",
+        "CAST": "Praha 2",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1985"
+    },
+    "Národní třída": {
+        "LINKA": "B",
+        "CAST": "Praha 1",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1985"
+    },
+    "Náměstí Republiky": {
+        "LINKA": "B",
+        "CAST": "Praha 1",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": true,
+        "ROK": "1985"
+    },
+    "Křižíkova": {
+        "LINKA": "B",
+        "CAST": "Praha 8",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1990"
+    },
+    "Invalidovna": {
+        "LINKA": "B",
+        "CAST": "Praha 8",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1990"
+    },
+    "Palmovka": {
+        "LINKA": "B",
+        "CAST": "Praha 8",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1990"
+    },
+    "Českomoravská": {
+        "LINKA": "B",
+        "CAST": "Praha 9",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1990"
+    },
+    "Vysočanská": {
+        "LINKA": "B",
+        "CAST": "Praha 9",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": true,
+        "ROK": "1998"
+    },
+    "Kolbenova": {
+        "LINKA": "B",
+        "CAST": "Praha 9",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2001"
+    },
+    "Hloubětín": {
+        "LINKA": "B",
+        "CAST": "Praha 9",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1999"
+    },
+    "Rajská zahrada": {
+        "LINKA": "B",
+        "CAST": "Praha 14",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1998"
+    },
+    "Černý Most": {
+        "LINKA": "B",
+        "CAST": "Praha 14",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1998"
+    },
+
+    "Háje": {
+        "LINKA": "C",
+        "CAST": "Praha 11",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1980"
+    },
+    "Opatov": {
+        "LINKA": "C",
+        "CAST": "Praha 11",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1980"
+    },
+    "Chodov": {
+        "LINKA": "C",
+        "CAST": "Praha 11",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1980"
+    },
+    "Roztyly": {
+        "LINKA": "C",
+        "CAST": "Praha 4",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1980"
+    },
+    "Kačerov": {
+        "LINKA": "C",
+        "CAST": "Praha 4",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": true,
+        "ROK": "1974"
+    },
+    "Budějovická": {
+        "LINKA": "C",
+        "CAST": "Praha 4",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1974"
+    },
+    "Pankrác": {
+        "LINKA": "C",
+        "CAST": "Praha 4",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1974"
+    },
+    "Pražského povstání": {
+        "LINKA": "C",
+        "CAST": "Praha 4",
+        "BEZBARIEROVYPRISTUP": false,
+        "PRESTUPNI": false,
+        "ROK": "1974"
+    },
+    "Vyšehrad": {
+        "LINKA": "C",
+        "CAST": "Praha 2",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1974"
+    },
+    "I. P. Pavlova": {
+        "LINKA": "C",
+        "CAST": "Praha 2",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1974"
+    },
+    "Hlavní nádraží": {
+        "LINKA": "C",
+        "CAST": "Praha 1",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": true,
+        "ROK": "1974"
+    },
+    "Vltavská": {
+        "LINKA": "C",
+        "CAST": "Praha 7",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "1984"
+    },
+    "Nádraží Holešovice": {
+        "LINKA": "C",
+        "CAST": "Praha 7",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": true,
+        "ROK": "1984"
+    },
+    "Kobylisy": {
+        "LINKA": "C",
+        "CAST": "Praha 8",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2004"
+    },
+    "Ládví": {
+        "LINKA": "C",
+        "CAST": "Praha 8",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2004"
+    },
+    "Střížkov": {
+        "LINKA": "C",
+        "CAST": "Praha 9",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2008"
+    },
+    "Prosek": {
+        "LINKA": "C",
+        "CAST": "Praha 9",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2008"
+    },
+    "Letňany": {
+        "LINKA": "C",
+        "CAST": "Praha 9",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": false,
+        "ROK": "2008"
+    },
+
+    "Muzeum": {
+        "LINKA": ["C", "A"],
+        "CAST": "Praha 1",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": true,
+        "ROK": "1974"
+    },
+    "Můstek": {
+        "LINKA": ["A","B"],
+        "CAST": "Praha 1",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": true,
+        "ROK": "1978"
+    },
+    "Florenc": {
+        "LINKA": ["B", "C"],
+        "CAST": "Praha 8",
+        "BEZBARIEROVYPRISTUP": true,
+        "PRESTUPNI": true,
+        "ROK": "1974"
+    }
+}
