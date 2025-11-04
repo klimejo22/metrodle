@@ -139,7 +139,15 @@ function App() {
         <h2>Posledni update: {date}</h2>
       </div>
       <div>
-        <input type="text" placeholder="Napis zastavku" value={currentStanice} onChange={(e) => setCurrentStanice(e.target.value)}/>
+        <input
+          type="text"
+          placeholder="Napis zastavku"
+          value={currentStanice} onChange={(e) => setCurrentStanice(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              handleClick();
+            }
+          }}/>
         <button onClick={handleClick}>Potvrdit</button>
       </div>
 

@@ -30,7 +30,7 @@ if (!isset($_GET["stanice"])) {
 
 foreach ($jsonData as $key => $value) {
     // var_dump_plus(normalizeString($key));
-    if (normalizeString($key) === $_GET["stanice"]) {
+    if (normalizeString($key) === normalizeString($_GET["stanice"])) {
         $foundKey = $key;
         break;
     }
