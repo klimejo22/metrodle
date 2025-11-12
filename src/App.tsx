@@ -3,6 +3,8 @@ import './App.css'
 import './components/Box.css'
 import { type BoxProps } from './components/Box'
 import Guess from "./components/Guess";
+import detectMob from './utils/detectMobile';
+
 function App() {
   const [currentStanice, setCurrentStanice] = useState("")
   const [date, setDate] = useState("")
@@ -148,7 +150,10 @@ function App() {
               handleClick();
             }
           }}/>
-        <button onClick={handleClick}>Potvrdit</button>
+        <button 
+          onClick={handleClick}
+          onTouchEnd={handleClick}
+        >Potvrdit</button>
       </div>
 
       <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
@@ -162,8 +167,8 @@ function App() {
             { match: "nazev", value: "Datum otevření" }
           ]}
         />
-        {guesses.map((guess, index) => (
-          <Guess key={index} cubes={guess}/>
+        {guesses.map((guess, key) => (
+          <Guess key={key} cubes={guess}/>
         ))}
     </div>
     </>
