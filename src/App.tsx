@@ -5,6 +5,7 @@ import { type BoxProps } from './components/Box'
 import Guess from "./components/Guess";
 import detectMob from './utils/detectMobile';
 import UserControls from './components/UserControls';
+import { Debug } from './components/Debug';
 
 function App() {
   const [date, setDate] = useState("")
@@ -12,6 +13,8 @@ function App() {
   const [guesses, setGuesses] = useState<BoxProps[][]>([[]]);
 
   const defaultUrl = "https://www.junglediff.cz/metrodle-api/"
+
+  console.log(detectMob())
 
   const getUpdate = async () => {
     try {
@@ -58,6 +61,8 @@ function App() {
           <Guess key={key} cubes={guess}/>
         ))}
     </div>
+
+    <Debug isMobile={detectMob()}></Debug>
     </>
   )
 }
