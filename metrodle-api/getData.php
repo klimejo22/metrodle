@@ -24,13 +24,13 @@ $dailyGoal = $jsonData[getDailyGoal()];
 
 // var_dump_plus($dailyGoal);
 
-if (!isset($_GET["stanice"])) {
+if (!isset($_POST["stanice"])) {
     echo "Zastavka neni definovana";
 }
 
 foreach ($jsonData as $key => $value) {
     // var_dump_plus(normalizeString($key));
-    if (normalizeString($key) === normalizeString($_GET["stanice"])) {
+    if (normalizeString($key) === normalizeString($_POST["stanice"])) {
         $foundKey = $key;
         break;
     }

@@ -14,8 +14,6 @@ function App() {
 
   const defaultUrl = "https://www.junglediff.cz/metrodle-api/"
 
-  console.log(detectMob())
-
   const getUpdate = async () => {
     try {
       const res = await fetch(defaultUrl + "getUpdate.php")
@@ -30,7 +28,8 @@ function App() {
 
   useEffect(() => {
     getUpdate()
-  })
+    console.log(detectMob())
+  }, [])
 
   return (
     <>

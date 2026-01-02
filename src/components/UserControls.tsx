@@ -9,7 +9,7 @@ export interface UserControlsProps {
 
 export const UserControls : React.FC<UserControlsProps> = ({guesses, setGuesses, isMobile}) => {
     const [currentStanice, setCurrentStanice] = useState("")
-    const defaultUrl = "https://www.junglediff.cz/metrodle-api/"
+    const defaultUrl = "https://www.junglediff.cz/metrodle-api/v2/"
 
     function removeDiacritics(str : string) {
         return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -20,16 +20,25 @@ export const UserControls : React.FC<UserControlsProps> = ({guesses, setGuesses,
 
         try {
             console.log("Kliklo se to")
-            const query = new URLSearchParams({ stanice: normalizedStanice }).toString();
-            const res = await fetch(
-                defaultUrl + "getData.php" + "?" + query,
-                {
-                method: "get",
-                headers: {"Content-Type": "application/json"},
-                }
-            )
+            // const query = new URLSearchParams({ stanice: normalizedStanice }).toString();
+            // const res = await fetch(
+            //     defaultUrl + "getData.php" + "?" + query,
+            //     {
+            //     method: "get",
+            //     headers: {"Content-Type": "application/json"},
+            //     }
+            // )
 
-            console.log(defaultUrl + "getData.php" + "?" + query)
+            const res = await fetch(defaultUrl + "getData.php", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ stanice: normalizedStanice })
+            });
+
+
+            // console.log(defaultUrl + "getData.php" + "?" + query)
 
             const data = await res.json()
             
